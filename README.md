@@ -8,8 +8,6 @@
 
 - 👯 I'm looking to collaborate on **any open source project**
 
-- 📫 How to reach me **stephwyatt08@gmail.com**
-
 <h3 align="left">Connect with me:</h3>
 <p align="left">
 <a href="https://github.com/stevwya77" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/github.svg" alt="stevwya77" height="30" width="40" /></a>
