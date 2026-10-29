@@ -21,12 +21,16 @@ Usage
   # or let it list + clone a GitHub user's public repos (uses the GitHub API)
   python langprog.py --github-user stevwya77 --author "stephwyatt08@|45020090\\+" --name Steph
 
+  # include private repos too (needs a token in LANGPROG_TOKEN, see README)
+  python langprog.py --github-user stevwya77 --private --author "..." --name Steph
+
 Output goes to ./langprog-out/ unless you pass --out.
 """
 
 from __future__ import annotations
 
 import argparse
+import base64
 import datetime as dt
 import json
 import math
@@ -91,6 +95,7 @@ class Project:
     first: dt.date | None = None                       # your first commit
     last: dt.date | None = None                        # your latest commit
     commits: int = 0
+    private: bool = False
     lines: dict = field(default_factory=lambda: defaultdict(int))        # family -> lines added
     started: dict = field(default_factory=dict)                          # family -> first date
     by_year: dict = field(default_factory=lambda: defaultdict(lambda: defaultdict(int)))  # year -> family -> lines
@@ -172,34 +177,60 @@ def scan_repo(repo: Path, author_re: re.Pattern) -> Project:
     return proj
 
 
-def clone_github_user(user: str, dest: Path, extra: list[str], skip: list[str]) -> list[Path]:
-    """List a user's public repos via the GitHub API and clone/update them."""
+def clone_github_user(user: str, dest: Path, extra: list[str], skip: list[str],
+                      private: bool = False) -> tuple[list[Path], set[str]]:
+    """List a user's repos via the GitHub API and clone/update them.
+
+    Without --private: public repos only (any token, or none, works).
+    With --private: uses LANGPROG_TOKEN to list and clone your private repos too.
+    Returns (repo folders, names of the private ones).
+    """
     dest.mkdir(parents=True, exist_ok=True)
     headers = {"Accept": "application/vnd.github+json"}
-    if os.environ.get("GITHUB_TOKEN"):
-        headers["Authorization"] = f"Bearer {os.environ['GITHUB_TOKEN']}"
-    names, page = [], 1
+    token = os.environ.get("LANGPROG_TOKEN") if private else os.environ.get("GITHUB_TOKEN")
+    if private and not token:
+        sys.exit("--private needs a GitHub token in the LANGPROG_TOKEN environment variable (see README).")
+    if token:
+        headers["Authorization"] = f"Bearer {token}"
+    if private:   # /user/repos = everything the token can see: public + private, owned + collaborator
+        base = "https://api.github.com/user/repos?visibility=all&affiliation=owner,collaborator"
+    else:
+        base = f"https://api.github.com/users/{user}/repos?type=owner"
+    repos, page = {}, 1
     while True:
-        url = f"https://api.github.com/users/{user}/repos?per_page=100&page={page}"
-        with urllib.request.urlopen(urllib.request.Request(url, headers=headers)) as r:
+        with urllib.request.urlopen(urllib.request.Request(f"{base}&per_page=100&page={page}",
+                                                           headers=headers)) as r:
             batch = json.load(r)
         if not batch:
             break
-        names += [b["full_name"] for b in batch]
+        repos.update({b["full_name"]: b.get("private", False) for b in batch})
         page += 1
-    names += extra
-    paths = []
-    for full in names:
-        if full.split("/")[1] in skip:
+    for full in extra:
+        repos.setdefault(full, False)
+
+    # Send the token as a header instead of putting it in the clone URL,
+    # so it never gets saved inside the cloned repo's config.
+    auth = []
+    if private:
+        basic = base64.b64encode(f"x-access-token:{token}".encode()).decode()
+        auth = ["-c", f"http.extraHeader=Authorization: Basic {basic}"]
+
+    paths, private_names = [], set()
+    for full, is_private in repos.items():
+        name = full.split("/")[1]
+        if name in skip:
             continue
-        p = dest / full.split("/")[1]
+        p = dest / name
         if p.exists():
-            git(p, "fetch", "--quiet", "--all")
+            subprocess.run(["git", *auth, "-C", str(p), "fetch", "--quiet", "--all"], check=False)
         else:
-            subprocess.run(["git", "clone", "--quiet", "--no-checkout",
+            subprocess.run(["git", *auth, "clone", "--quiet", "--no-checkout",
                             f"https://github.com/{full}.git", str(p)], check=False)
-        paths.append(p)
-    return paths
+        if p.exists():
+            paths.append(p)
+            if is_private:
+                private_names.add(name)
+    return paths, private_names
 
 
 # ---------------------------------------------------------------------------
@@ -454,6 +485,12 @@ def main(argv=None):
     src.add_argument("--repos-dir", type=Path, help="folder full of git repos")
     src.add_argument("--github-user", help="GitHub username: list + clone their public repos")
     ap.add_argument("--extra", nargs="*", default=[], help="extra owner/repo to include (with --github-user)")
+    ap.add_argument("--private", action="store_true",
+                    help="with --github-user: include private repos (token in LANGPROG_TOKEN)")
+    ap.add_argument("--private-repos", nargs="*", default=[],
+                    help="with --repos-dir: names of repos to treat as private")
+    ap.add_argument("--show-private-names", action="store_true",
+                    help="show real names of private repos (default: '🔒 Private project N')")
     ap.add_argument("--author", required=True, help="regex matching your commit email or name")
     ap.add_argument("--name", default="My", help="your name for the page title")
     ap.add_argument("--exclude", nargs="*", default=[], help="repo names to skip")
@@ -463,9 +500,11 @@ def main(argv=None):
     args = ap.parse_args(argv)
 
     if args.github_user:
-        repos = clone_github_user(args.github_user, args.cache, args.extra, args.exclude)
+        repos, private_names = clone_github_user(args.github_user, args.cache, args.extra,
+                                                 args.exclude, args.private)
     else:
         repos = sorted(p for p in args.repos_dir.iterdir() if (p / ".git").exists())
+        private_names = set(args.private_repos)
     author_re = re.compile(args.author, re.I)
 
     projects = []
@@ -473,15 +512,25 @@ def main(argv=None):
         if repo.name in args.exclude:
             continue
         p = scan_repo(repo, author_re)
+        p.private = repo.name in private_names
         for f in [f for f, n in p.lines.items() if n < args.min_lines]:
             del p.lines[f]
             p.started.pop(f, None)
         status = f"{p.total:>6,} lines  {p.main or '-'}" if p.lines else "  (none of your code)"
-        print(f"  {repo.name:<32}{status}", file=sys.stderr)
+        shown = "🔒 (private)" if p.private and not args.show_private_names else repo.name
+        print(f"  {shown:<32}{status}", file=sys.stderr)   # Action logs are public too
         if p.lines:
             projects.append(p)
     if not projects:
         sys.exit("No commits matched --author. Check `git log --format='%ae %an'` for your identities.")
+
+    # Private repos get a placeholder name (numbered oldest first) unless you opt in.
+    if not args.show_private_names:
+        hidden = sorted((p for p in projects if p.private), key=lambda p: p.first)
+        for i, p in enumerate(hidden, 1):
+            p.name = f"🔒 Private project {i}"
+        if hidden:
+            print(f"  ({len(hidden)} private project names hidden)", file=sys.stderr)
 
     md, years = build_markdown(projects, args.name)
     (args.out / "assets").mkdir(parents=True, exist_ok=True)

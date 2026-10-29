@@ -1,4 +1,5 @@
 # Put this in your profile repo (stevwya77/stevwya77) with langprog.py next to README.md.
+# Needs a repo secret named LANGPROG_TOKEN (see README: "Include private repos").
 # It regrows LANGUAGES.md + assets/*.svg every Monday, or when you click "Run workflow".
 name: 🌱 Language garden
 
@@ -20,10 +21,11 @@ jobs:
           python-version: "3.12"
       - name: Scan repos and draw charts
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          LANGPROG_TOKEN: ${{ secrets.LANGPROG_TOKEN }}   # read-only token that can see your private repos
         run: |
           python langprog.py \
             --github-user stevwya77 \
+            --private \
             --extra ray-vazquez/trueheart-mockup cbruhns/fewd-fall-2018 \
             --exclude stevwya77 first-contributions github-readme-stats css-exercises javascript-exercises kickstart.nvim \
             --author 'stephwyatt08@|45020090\+' \
