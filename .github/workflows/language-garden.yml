@@ -1,0 +1,38 @@
+# Put this in your profile repo (stevwya77/stevwya77) with langprog.py next to README.md.
+# It regrows LANGUAGES.md + assets/*.svg every Monday, or when you click "Run workflow".
+name: 🌱 Language garden
+
+on:
+  schedule:
+    - cron: "17 6 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  grow:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Scan repos and draw charts
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          python langprog.py \
+            --github-user stevwya77 \
+            --extra ray-vazquez/trueheart-mockup cbruhns/fewd-fall-2018 \
+            --exclude stevwya77 first-contributions github-readme-stats css-exercises javascript-exercises kickstart.nvim \
+            --author 'stephwyatt08@|45020090\+' \
+            --name Steph \
+            --out .
+      - name: Commit if anything changed
+        run: |
+          git config user.name "language-garden-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add LANGUAGES.md assets/ data.json
+          git diff --staged --quiet || git commit -m "🌱 regrow language garden"
+          git push
