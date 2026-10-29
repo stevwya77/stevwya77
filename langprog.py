@@ -324,8 +324,8 @@ def journey_svg(projects: list[Project], mode: str, who: str) -> str:
     o = svg_open(W, H, t, f"{who}'s language journey",
                  "One dot per project per language, placed at the first commit in that language. "
                  "Dot size shows lines written.")
-    o.append(f'<text x="28" y="40" font-size="20" font-weight="600" fill="{t["ink"]}">🌱 {escape(who)}\'s language journey</text>')
-    o.append(f'<text x="28" y="61" font-size="13" fill="{t["ink2"]}">Each dot is a project, placed where you first wrote that language. Bigger dot = more lines.</text>')
+    o.append(f'<text x="28" y="40" font-size="20" font-weight="600" fill="{t["ink"]}">{escape(who)}\'s language journey</text>')
+    o.append(f'<text x="28" y="61" font-size="13" fill="{t["ink2"]}">Each dot is a project, placed on first language commit. Bigger dot = more lines of code.</text>')
 
     bottom = top + row * len(fams)
     # gridlines + ticks
