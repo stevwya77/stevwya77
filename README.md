@@ -19,4 +19,3 @@
   <source media="(prefers-color-scheme: dark)" srcset="assets/journey-dark.svg">
   <img alt="My language journey: one dot per project, by language over time" src="assets/journey-light.svg" width="100%">
 </picture>
-<p align="left"><a href="LANGUAGES.md">See the full language garden →</a></p>
