@@ -1,5 +1,65 @@
 [
   {
+    "project": "PollingDataVisualization",
+    "first": "2019-05-20",
+    "last": "2019-05-21",
+    "commits": 3,
+    "lines": {
+      "HTML & CSS": 628,
+      "JavaScript": 874
+    },
+    "by_year": {
+      "2019": {
+        "HTML & CSS": 628,
+        "JavaScript": 874
+      }
+    },
+    "started": {
+      "HTML & CSS": "2019-05-20",
+      "JavaScript": "2019-05-20"
+    }
+  },
+  {
+    "project": "trueheart-mockup",
+    "first": "2018-12-04",
+    "last": "2019-01-14",
+    "commits": 9,
+    "lines": {
+      "HTML & CSS": 392
+    },
+    "by_year": {
+      "2019": {
+        "HTML & CSS": 311
+      },
+      "2018": {
+        "HTML & CSS": 81
+      }
+    },
+    "started": {
+      "HTML & CSS": "2018-12-04"
+    }
+  },
+  {
+    "project": "\ud83d\udd12 Private project 1",
+    "first": "2024-12-09",
+    "last": "2024-12-10",
+    "commits": 6,
+    "lines": {
+      "HTML & CSS": 468,
+      "JavaScript": 1945
+    },
+    "by_year": {
+      "2024": {
+        "HTML & CSS": 468,
+        "JavaScript": 1945
+      }
+    },
+    "started": {
+      "HTML & CSS": "2024-12-09",
+      "JavaScript": "2024-12-09"
+    }
+  },
+  {
     "project": "adventofcode2025",
     "first": "2025-12-04",
     "last": "2025-12-05",
@@ -71,6 +131,23 @@
     }
   },
   {
+    "project": "\ud83d\udd12 Private project 8",
+    "first": "2026-02-20",
+    "last": "2026-03-31",
+    "commits": 4,
+    "lines": {
+      "Other code": 112
+    },
+    "by_year": {
+      "2026": {
+        "Other code": 112
+      }
+    },
+    "started": {
+      "Other code": "2026-02-21"
+    }
+  },
+  {
     "project": "bookbot",
     "first": "2025-08-17",
     "last": "2025-08-20",
@@ -125,6 +202,23 @@
     }
   },
   {
+    "project": "\ud83d\udd12 Private project 2",
+    "first": "2025-02-25",
+    "last": "2025-03-12",
+    "commits": 16,
+    "lines": {
+      "Python": 586
+    },
+    "by_year": {
+      "2025": {
+        "Python": 586
+      }
+    },
+    "started": {
+      "Python": "2025-02-25"
+    }
+  },
+  {
     "project": "etchasketch",
     "first": "2025-10-23",
     "last": "2025-10-23",
@@ -169,6 +263,24 @@
     }
   },
   {
+    "project": "\ud83d\udd12 Private project 4",
+    "first": "2025-10-08",
+    "last": "2025-10-08",
+    "commits": 2,
+    "lines": {
+      "C / C++": 26
+    },
+    "by_year": {
+      "2025": {
+        "Other code": 4,
+        "C / C++": 26
+      }
+    },
+    "started": {
+      "C / C++": "2025-10-08"
+    }
+  },
+  {
     "project": "JavaScript2019",
     "first": "2019-02-04",
     "last": "2019-02-11",
@@ -184,6 +296,23 @@
     },
     "started": {
       "JavaScript": "2019-02-06"
+    }
+  },
+  {
+    "project": "\ud83d\udd12 Private project 6",
+    "first": "2025-10-21",
+    "last": "2025-10-21",
+    "commits": 2,
+    "lines": {
+      "HTML & CSS": 436
+    },
+    "by_year": {
+      "2025": {
+        "HTML & CSS": 436
+      }
+    },
+    "started": {
+      "HTML & CSS": "2025-10-21"
     }
   },
   {
@@ -258,6 +387,40 @@
     }
   },
   {
+    "project": "\ud83d\udd12 Private project 9",
+    "first": "2026-07-15",
+    "last": "2026-07-15",
+    "commits": 1,
+    "lines": {
+      "C / C++": 74
+    },
+    "by_year": {
+      "2026": {
+        "C / C++": 74
+      }
+    },
+    "started": {
+      "C / C++": "2026-07-15"
+    }
+  },
+  {
+    "project": "\ud83d\udd12 Private project 5",
+    "first": "2025-10-20",
+    "last": "2025-10-20",
+    "commits": 1,
+    "lines": {
+      "HTML & CSS": 206
+    },
+    "by_year": {
+      "2025": {
+        "HTML & CSS": 206
+      }
+    },
+    "started": {
+      "HTML & CSS": "2025-10-20"
+    }
+  },
+  {
     "project": "PollingDataVisualization",
     "first": "2019-05-20",
     "last": "2019-05-21",
@@ -295,6 +458,26 @@
     "started": {
       "JavaScript": "2019-03-13",
       "HTML & CSS": "2019-03-13"
+    }
+  },
+  {
+    "project": "\ud83d\udd12 Private project 7",
+    "first": "2025-10-21",
+    "last": "2025-10-22",
+    "commits": 2,
+    "lines": {
+      "HTML & CSS": 23,
+      "JavaScript": 126
+    },
+    "by_year": {
+      "2025": {
+        "HTML & CSS": 23,
+        "JavaScript": 126
+      }
+    },
+    "started": {
+      "HTML & CSS": "2025-10-21",
+      "JavaScript": "2025-10-21"
     }
   },
   {
@@ -373,6 +556,39 @@
     }
   },
   {
+    "project": "\ud83d\udd12 Private project 3",
+    "first": "2025-04-20",
+    "last": "2026-09-11",
+    "commits": 63,
+    "lines": {
+      "Python": 1530,
+      "HTML & CSS": 8415,
+      "TypeScript": 8289,
+      "C / C++": 53,
+      "JavaScript": 867
+    },
+    "by_year": {
+      "2026": {
+        "Python": 2
+      },
+      "2025": {
+        "HTML & CSS": 8415,
+        "TypeScript": 8289,
+        "C / C++": 53,
+        "Python": 1528,
+        "JavaScript": 867,
+        "Hardware & ASM": 4
+      }
+    },
+    "started": {
+      "Python": "2025-04-28",
+      "HTML & CSS": "2025-04-20",
+      "TypeScript": "2025-04-28",
+      "C / C++": "2025-06-05",
+      "JavaScript": "2025-04-20"
+    }
+  },
+  {
     "project": "webbrowser",
     "first": "2026-10-28",
     "last": "2026-10-28",
@@ -387,26 +603,6 @@
     },
     "started": {
       "Python": "2026-10-28"
-    }
-  },
-  {
-    "project": "trueheart-mockup",
-    "first": "2018-12-04",
-    "last": "2019-01-14",
-    "commits": 9,
-    "lines": {
-      "HTML & CSS": 392
-    },
-    "by_year": {
-      "2019": {
-        "HTML & CSS": 311
-      },
-      "2018": {
-        "HTML & CSS": 81
-      }
-    },
-    "started": {
-      "HTML & CSS": "2018-12-04"
     }
   }
 ]
