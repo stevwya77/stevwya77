@@ -1,0 +1,412 @@
+[
+  {
+    "project": "adventofcode2025",
+    "first": "2025-12-04",
+    "last": "2025-12-05",
+    "commits": 5,
+    "lines": {
+      "Python": 89
+    },
+    "by_year": {
+      "2025": {
+        "Python": 89
+      }
+    },
+    "started": {
+      "Python": "2025-12-04"
+    }
+  },
+  {
+    "project": "ai-agent",
+    "first": "2025-09-08",
+    "last": "2025-09-26",
+    "commits": 6,
+    "lines": {
+      "Python": 532
+    },
+    "by_year": {
+      "2025": {
+        "Python": 532
+      }
+    },
+    "started": {
+      "Python": "2025-09-08"
+    }
+  },
+  {
+    "project": "Arcade",
+    "first": "2026-08-10",
+    "last": "2026-10-23",
+    "commits": 12,
+    "lines": {
+      "Other code": 124,
+      "C / C++": 2321
+    },
+    "by_year": {
+      "2026": {
+        "Other code": 124,
+        "C / C++": 2321
+      }
+    },
+    "started": {
+      "Other code": "2026-10-23",
+      "C / C++": "2026-08-10"
+    }
+  },
+  {
+    "project": "asteroids-clone",
+    "first": "2025-08-29",
+    "last": "2025-08-31",
+    "commits": 10,
+    "lines": {
+      "Python": 275
+    },
+    "by_year": {
+      "2025": {
+        "Python": 275
+      }
+    },
+    "started": {
+      "Python": "2025-08-29"
+    }
+  },
+  {
+    "project": "bookbot",
+    "first": "2025-08-17",
+    "last": "2025-08-20",
+    "commits": 4,
+    "lines": {
+      "Python": 69
+    },
+    "by_year": {
+      "2025": {
+        "Python": 69
+      }
+    },
+    "started": {
+      "Python": "2025-08-20"
+    }
+  },
+  {
+    "project": "bounce",
+    "first": "2026-08-04",
+    "last": "2026-08-09",
+    "commits": 4,
+    "lines": {
+      "C / C++": 599
+    },
+    "by_year": {
+      "2026": {
+        "C / C++": 599
+      }
+    },
+    "started": {
+      "C / C++": "2026-08-04"
+    }
+  },
+  {
+    "project": "calculator",
+    "first": "2025-10-24",
+    "last": "2025-12-11",
+    "commits": 4,
+    "lines": {
+      "HTML & CSS": 183,
+      "JavaScript": 132
+    },
+    "by_year": {
+      "2025": {
+        "HTML & CSS": 183,
+        "JavaScript": 132
+      }
+    },
+    "started": {
+      "HTML & CSS": "2025-10-24",
+      "JavaScript": "2025-10-24"
+    }
+  },
+  {
+    "project": "etchasketch",
+    "first": "2025-10-23",
+    "last": "2025-10-23",
+    "commits": 1,
+    "lines": {
+      "HTML & CSS": 61,
+      "JavaScript": 61
+    },
+    "by_year": {
+      "2025": {
+        "HTML & CSS": 61,
+        "JavaScript": 61
+      }
+    },
+    "started": {
+      "HTML & CSS": "2025-10-23",
+      "JavaScript": "2025-10-23"
+    }
+  },
+  {
+    "project": "fortsite",
+    "first": "2026-08-21",
+    "last": "2026-08-21",
+    "commits": 12,
+    "lines": {
+      "TypeScript": 781,
+      "Other code": 491,
+      "HTML & CSS": 780
+    },
+    "by_year": {
+      "2026": {
+        "TypeScript": 781,
+        "Other code": 491,
+        "JavaScript": 14,
+        "HTML & CSS": 780
+      }
+    },
+    "started": {
+      "TypeScript": "2026-08-21",
+      "Other code": "2026-08-21",
+      "HTML & CSS": "2026-08-21"
+    }
+  },
+  {
+    "project": "JavaScript2019",
+    "first": "2019-02-04",
+    "last": "2019-02-11",
+    "commits": 3,
+    "lines": {
+      "JavaScript": 60
+    },
+    "by_year": {
+      "2019": {
+        "JavaScript": 60,
+        "HTML & CSS": 1
+      }
+    },
+    "started": {
+      "JavaScript": "2019-02-06"
+    }
+  },
+  {
+    "project": "lazyfoo",
+    "first": "2026-07-14",
+    "last": "2026-07-14",
+    "commits": 1,
+    "lines": {
+      "C / C++": 1222
+    },
+    "by_year": {
+      "2026": {
+        "C / C++": 1222
+      }
+    },
+    "started": {
+      "C / C++": "2026-07-14"
+    }
+  },
+  {
+    "project": "ML_refresher",
+    "first": "2026-09-15",
+    "last": "2026-10-05",
+    "commits": 5,
+    "lines": {
+      "Python": 289
+    },
+    "by_year": {
+      "2026": {
+        "Python": 289
+      }
+    },
+    "started": {
+      "Python": "2026-09-15"
+    }
+  },
+  {
+    "project": "Nand2Tetris",
+    "first": "2025-12-10",
+    "last": "2026-10-14",
+    "commits": 13,
+    "lines": {
+      "Rust": 343,
+      "Hardware & ASM": 1310
+    },
+    "by_year": {
+      "2025": {
+        "Rust": 343,
+        "Hardware & ASM": 1310
+      }
+    },
+    "started": {
+      "Rust": "2025-12-27",
+      "Hardware & ASM": "2025-12-10"
+    }
+  },
+  {
+    "project": "neetcode-submissions-dp8kzxsx",
+    "first": "2026-03-31",
+    "last": "2026-10-27",
+    "commits": 5,
+    "lines": {
+      "Python": 315
+    },
+    "by_year": {
+      "2026": {
+        "Python": 315
+      }
+    },
+    "started": {
+      "Python": "2026-03-31"
+    }
+  },
+  {
+    "project": "PollingDataVisualization",
+    "first": "2019-05-20",
+    "last": "2019-05-21",
+    "commits": 3,
+    "lines": {
+      "HTML & CSS": 628,
+      "JavaScript": 874
+    },
+    "by_year": {
+      "2019": {
+        "HTML & CSS": 628,
+        "JavaScript": 874
+      }
+    },
+    "started": {
+      "HTML & CSS": "2019-05-20",
+      "JavaScript": "2019-05-20"
+    }
+  },
+  {
+    "project": "retro-board",
+    "first": "2019-03-13",
+    "last": "2019-04-01",
+    "commits": 4,
+    "lines": {
+      "JavaScript": 420,
+      "HTML & CSS": 253
+    },
+    "by_year": {
+      "2019": {
+        "JavaScript": 420,
+        "HTML & CSS": 253
+      }
+    },
+    "started": {
+      "JavaScript": "2019-03-13",
+      "HTML & CSS": "2019-03-13"
+    }
+  },
+  {
+    "project": "signupform",
+    "first": "2026-04-30",
+    "last": "2026-05-16",
+    "commits": 4,
+    "lines": {
+      "HTML & CSS": 53
+    },
+    "by_year": {
+      "2026": {
+        "HTML & CSS": 53
+      }
+    },
+    "started": {
+      "HTML & CSS": "2026-05-16"
+    }
+  },
+  {
+    "project": "static_site_generator",
+    "first": "2026-01-07",
+    "last": "2026-05-18",
+    "commits": 8,
+    "lines": {
+      "Python": 364
+    },
+    "by_year": {
+      "2026": {
+        "Python": 364,
+        "Other code": 2
+      }
+    },
+    "started": {
+      "Python": "2026-01-08"
+    }
+  },
+  {
+    "project": "stevwya77.github.io",
+    "first": "2026-09-21",
+    "last": "2026-10-19",
+    "commits": 15,
+    "lines": {
+      "HTML & CSS": 830,
+      "TypeScript": 84,
+      "JavaScript": 71
+    },
+    "by_year": {
+      "2026": {
+        "HTML & CSS": 830,
+        "TypeScript": 84,
+        "JavaScript": 71
+      }
+    },
+    "started": {
+      "HTML & CSS": "2026-09-21",
+      "TypeScript": "2026-09-21",
+      "JavaScript": "2026-09-21"
+    }
+  },
+  {
+    "project": "tictactoe",
+    "first": "2026-07-19",
+    "last": "2026-07-28",
+    "commits": 3,
+    "lines": {
+      "C / C++": 351
+    },
+    "by_year": {
+      "2026": {
+        "C / C++": 351
+      }
+    },
+    "started": {
+      "C / C++": "2026-07-19"
+    }
+  },
+  {
+    "project": "webbrowser",
+    "first": "2026-10-28",
+    "last": "2026-10-28",
+    "commits": 2,
+    "lines": {
+      "Python": 109
+    },
+    "by_year": {
+      "2026": {
+        "Python": 109
+      }
+    },
+    "started": {
+      "Python": "2026-10-28"
+    }
+  },
+  {
+    "project": "trueheart-mockup",
+    "first": "2018-12-04",
+    "last": "2019-01-14",
+    "commits": 9,
+    "lines": {
+      "HTML & CSS": 392
+    },
+    "by_year": {
+      "2019": {
+        "HTML & CSS": 311
+      },
+      "2018": {
+        "HTML & CSS": 81
+      }
+    },
+    "started": {
+      "HTML & CSS": "2018-12-04"
+    }
+  }
+]

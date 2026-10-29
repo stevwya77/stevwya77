@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="504" viewBox="0 0 900 504" role="img" aria-labelledby="t d" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif">
+<title id="t">Steph&#x27;s language journey</title><desc id="d">One dot per project per language, placed at the first commit in that language. Dot size shows lines written.</desc>
+<rect width="900" height="504" rx="18" fill="#fcfcfb"/>
+<text x="28" y="40" font-size="20" font-weight="600" fill="#0b0b0b">🌱 Steph's language journey</text>
+<text x="28" y="61" font-size="13" fill="#52514e">Each dot is a project, placed where you first wrote that language. Bigger dot = more lines.</text>
+<line x1="216.3" y1="74" x2="216.3" y2="446" stroke="#e9e8e4" stroke-width="1"/>
+<text x="216.3" y="466" font-size="12" text-anchor="middle" font-weight="600" fill="#52514e">2019</text>
+<line x1="576.2" y1="74" x2="576.2" y2="446" stroke="#e9e8e4" stroke-width="1"/>
+<text x="576.2" y="466" font-size="12" text-anchor="middle" font-weight="600" fill="#52514e">2026</text>
+<line x1="733.2" y1="74" x2="733.2" y2="446" stroke="#e9e8e4" stroke-width="1"/>
+<text x="733.2" y="466" font-size="12" text-anchor="middle" font-weight="400" fill="#8a8984">Jul</text>
+<polyline points="392.3,74 400.3,82 392.3,90 400.3,98 392.3,106 400.3,114 392.3,122 400.3,130 392.3,138 400.3,146 392.3,154 400.3,162 392.3,170 400.3,178 392.3,186 400.3,194 392.3,202 400.3,210 392.3,218 400.3,226 392.3,234 400.3,242 392.3,250 400.3,258 392.3,266 400.3,274 392.3,282 400.3,290 392.3,298 400.3,306 392.3,314 400.3,322 392.3,330 400.3,338 392.3,346 400.3,354 392.3,362 400.3,370 392.3,378 400.3,386 392.3,394 400.3,402 392.3,410 400.3,418 392.3,426 400.3,434 392.3,442" fill="none" stroke="#8a8984" stroke-width="1" stroke-linejoin="round"/>
+<text x="396.3" y="466" font-size="12" text-anchor="middle" fill="#8a8984">💤 6 yrs</text>
+<line x1="150" y1="101.0" x2="864" y2="101.0" stroke="#e9e8e4" stroke-width="1"/>
+<circle cx="28" cy="101.0" r="5" fill="#2a78d6"/>
+<text x="40" y="105.5" font-size="13" font-weight="500" fill="#0b0b0b">Python</text>
+<circle cx="477.5" cy="101.0" r="9.7" fill="#2a78d6" fill-opacity="0.9" stroke="#fcfcfb" stroke-width="2"><title>ai-agent · Python · 532 lines · started Sep 2025</title></circle>
+<circle cx="582.1" cy="101.0" r="8.8" fill="#2a78d6" fill-opacity="0.9" stroke="#fcfcfb" stroke-width="2"><title>static_site_generator · Python · 364 lines · started Jan 2026</title></circle>
+<circle cx="653.9" cy="101.0" r="8.4" fill="#2a78d6" fill-opacity="0.9" stroke="#fcfcfb" stroke-width="2"><title>neetcode-submissions-dp8kzxsx · Python · 315 lines · started Mar 2026</title></circle>
+<circle cx="797.3" cy="101.0" r="8.2" fill="#2a78d6" fill-opacity="0.9" stroke="#fcfcfb" stroke-width="2"><title>ML_refresher · Python · 289 lines · started Sep 2026</title></circle>
+<circle cx="469.1" cy="101.0" r="8.1" fill="#2a78d6" fill-opacity="0.9" stroke="#fcfcfb" stroke-width="2"><title>asteroids-clone · Python · 275 lines · started Aug 2025</title></circle>
+<circle cx="834.5" cy="101.0" r="6.6" fill="#2a78d6" fill-opacity="0.9" stroke="#fcfcfb" stroke-width="2"><title>webbrowser · Python · 109 lines · started Oct 2026</title></circle>
+<circle cx="552.6" cy="101.0" r="6.3" fill="#2a78d6" fill-opacity="0.9" stroke="#fcfcfb" stroke-width="2"><title>adventofcode2025 · Python · 89 lines · started Dec 2025</title></circle>
+<circle cx="461.5" cy="101.0" r="6.1" fill="#2a78d6" fill-opacity="0.9" stroke="#fcfcfb" stroke-width="2"><title>bookbot · Python · 69 lines · started Aug 2025</title></circle>
+<text x="477.5" y="86.3" font-size="11" text-anchor="middle" fill="#52514e">ai-agent</text>
+<line x1="150" y1="147.0" x2="864" y2="147.0" stroke="#e9e8e4" stroke-width="1"/>
+<circle cx="28" cy="147.0" r="5" fill="#eb6834"/>
+<text x="40" y="151.5" font-size="13" font-weight="500" fill="#0b0b0b">JavaScript</text>
+<circle cx="337.0" cy="147.0" r="11.4" fill="#eb6834" fill-opacity="0.9" stroke="#fcfcfb" stroke-width="2"><title>PollingDataVisualization · JavaScript · 874 lines · started May 2019</title></circle>
+<circle cx="278.8" cy="147.0" r="9.1" fill="#eb6834" fill-opacity="0.9" stroke="#fcfcfb" stroke-width="2"><title>retro-board · JavaScript · 420 lines · started Mar 2019</title></circle>
+<circle cx="517.2" cy="147.0" r="6.9" fill="#eb6834" fill-opacity="0.9" stroke="#fcfcfb" stroke-width="2"><title>calculator · JavaScript · 132 lines · started Oct 2025</title></circle>
+<circle cx="802.4" cy="147.0" r="6.1" fill="#eb6834" fill-opacity="0.9" stroke="#fcfcfb" stroke-width="2"><title>stevwya77.github.io · JavaScript · 71 lines · started Sep 2026</title></circle>
+<circle cx="516.3" cy="147.0" r="5.9" fill="#eb6834" fill-opacity="0.9" stroke="#fcfcfb" stroke-width="2"><title>etchasketch · JavaScript · 61 lines · started Oct 2025</title></circle>
+<circle cx="246.7" cy="147.0" r="5.9" fill="#eb6834" fill-opacity="0.9" stroke="#fcfcfb" stroke-width="2"><title>JavaScript2019 · JavaScript · 60 lines · started Feb 2019</title></circle>
+<text x="294.1" y="130.6" font-size="11" text-anchor="middle" fill="#52514e">PollingDataVisualization</text>
+<line x1="150" y1="193.0" x2="864" y2="193.0" stroke="#e9e8e4" stroke-width="1"/>
+<circle cx="28" cy="193.0" r="5" fill="#1baf7a"/>
+<text x="40" y="197.5" font-size="13" font-weight="500" fill="#0b0b0b">HTML &amp; CSS</text>
+<circle cx="802.4" cy="193.0" r="11.2" fill="#1baf7a" fill-opacity="0.9" stroke="#fcfcfb" stroke-width="2"><title>stevwya77.github.io · HTML &amp; CSS · 830 lines · started Sep 2026</title></circle>
+<circle cx="776.2" cy="193.0" r="11.0" fill="#1baf7a" fill-opacity="0.9" stroke="#fcfcfb" stroke-width="2"><title>fortsite · HTML &amp; CSS · 780 lines · started Aug 2026</title></circle>
+<circle cx="337.0" cy="193.0" r="10.2" fill="#1baf7a" fill-opacity="0.9" stroke="#fcfcfb" stroke-width="2"><title>PollingDataVisualization · HTML &amp; CSS · 628 lines · started May 2019</title></circle>
+<circle cx="192.7" cy="193.0" r="8.9" fill="#1baf7a" fill-opacity="0.9" stroke="#fcfcfb" stroke-width="2"><title>trueheart-mockup · HTML &amp; CSS · 392 lines · started Dec 2018</title></circle>
+<circle cx="278.8" cy="193.0" r="8.0" fill="#1baf7a" fill-opacity="0.9" stroke="#fcfcfb" stroke-width="2"><title>retro-board · HTML &amp; CSS · 253 lines · started Mar 2019</title></circle>
+<circle cx="517.2" cy="193.0" r="7.4" fill="#1baf7a" fill-opacity="0.9" stroke="#fcfcfb" stroke-width="2"><title>calculator · HTML &amp; CSS · 183 lines · started Oct 2025</title></circle>
+<circle cx="516.3" cy="193.0" r="5.9" fill="#1baf7a" fill-opacity="0.9" stroke="#fcfcfb" stroke-width="2"><title>etchasketch · HTML &amp; CSS · 61 lines · started Oct 2025</title></circle>
+<circle cx="693.5" cy="193.0" r="5.8" fill="#1baf7a" fill-opacity="0.9" stroke="#fcfcfb" stroke-width="2"><title>signupform · HTML &amp; CSS · 53 lines · started May 2026</title></circle>
+<text x="801.3" y="176.8" font-size="11" text-anchor="middle" fill="#52514e">stevwya77.github.io</text>
+<line x1="150" y1="239.0" x2="864" y2="239.0" stroke="#e9e8e4" stroke-width="1"/>
+<circle cx="28" cy="239.0" r="5" fill="#eda100"/>
+<text x="40" y="243.5" font-size="13" font-weight="500" fill="#0b0b0b">TypeScript</text>
+<circle cx="776.2" cy="239.0" r="11.0" fill="#eda100" fill-opacity="0.9" stroke="#fcfcfb" stroke-width="2"><title>fortsite · TypeScript · 781 lines · started Aug 2026</title></circle>
+<circle cx="802.4" cy="239.0" r="6.3" fill="#eda100" fill-opacity="0.9" stroke="#fcfcfb" stroke-width="2"><title>stevwya77.github.io · TypeScript · 84 lines · started Sep 2026</title></circle>
+<text x="776.2" y="223.0" font-size="11" text-anchor="middle" fill="#52514e">fortsite</text>
+<line x1="150" y1="285.0" x2="864" y2="285.0" stroke="#e9e8e4" stroke-width="1"/>
+<circle cx="28" cy="285.0" r="5" fill="#e87ba4"/>
+<text x="40" y="289.5" font-size="13" font-weight="500" fill="#0b0b0b">C / C++</text>
+<circle cx="767.0" cy="285.0" r="16.0" fill="#e87ba4" fill-opacity="0.9" stroke="#fcfcfb" stroke-width="2"><title>Arcade · C / C++ · 2,321 lines · started Aug 2026</title></circle>
+<circle cx="744.2" cy="285.0" r="12.7" fill="#e87ba4" fill-opacity="0.9" stroke="#fcfcfb" stroke-width="2"><title>lazyfoo · C / C++ · 1,222 lines · started Jul 2026</title></circle>
+<circle cx="761.9" cy="285.0" r="10.1" fill="#e87ba4" fill-opacity="0.9" stroke="#fcfcfb" stroke-width="2"><title>bounce · C / C++ · 599 lines · started Aug 2026</title></circle>
+<circle cx="748.4" cy="285.0" r="8.7" fill="#e87ba4" fill-opacity="0.9" stroke="#fcfcfb" stroke-width="2"><title>tictactoe · C / C++ · 351 lines · started Jul 2026</title></circle>
+<text x="767.0" y="264.0" font-size="11" text-anchor="middle" fill="#52514e">Arcade</text>
+<line x1="150" y1="331.0" x2="864" y2="331.0" stroke="#e9e8e4" stroke-width="1"/>
+<circle cx="28" cy="331.0" r="5" fill="#008300"/>
+<text x="40" y="335.5" font-size="13" font-weight="500" fill="#0b0b0b">Rust</text>
+<circle cx="572.0" cy="331.0" r="8.6" fill="#008300" fill-opacity="0.9" stroke="#fcfcfb" stroke-width="2"><title>Nand2Tetris · Rust · 343 lines · started Dec 2025</title></circle>
+<text x="572.0" y="317.4" font-size="11" text-anchor="middle" fill="#52514e">Nand2Tetris</text>
+<line x1="150" y1="377.0" x2="864" y2="377.0" stroke="#e9e8e4" stroke-width="1"/>
+<circle cx="28" cy="377.0" r="5" fill="#6250d6"/>
+<text x="40" y="381.5" font-size="13" font-weight="500" fill="#0b0b0b">Hardware &amp; ASM</text>
+<circle cx="557.7" cy="377.0" r="13.0" fill="#6250d6" fill-opacity="0.9" stroke="#fcfcfb" stroke-width="2"><title>Nand2Tetris · Hardware &amp; ASM · 1,310 lines · started Dec 2025</title></circle>
+<text x="557.7" y="359.0" font-size="11" text-anchor="middle" fill="#52514e">Nand2Tetris</text>
+<line x1="150" y1="423.0" x2="864" y2="423.0" stroke="#e9e8e4" stroke-width="1"/>
+<circle cx="28" cy="423.0" r="5" fill="#e34948"/>
+<text x="40" y="427.5" font-size="13" font-weight="500" fill="#0b0b0b">Other code</text>
+<circle cx="776.2" cy="423.0" r="9.5" fill="#e34948" fill-opacity="0.9" stroke="#fcfcfb" stroke-width="2"><title>fortsite · Other code · 491 lines · started Aug 2026</title></circle>
+<circle cx="830.2" cy="423.0" r="6.8" fill="#e34948" fill-opacity="0.9" stroke="#fcfcfb" stroke-width="2"><title>Arcade · Other code · 124 lines · started Oct 2026</title></circle>
+<text x="776.2" y="408.5" font-size="11" text-anchor="middle" fill="#52514e">fortsite</text>
+</svg>
