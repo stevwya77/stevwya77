@@ -1,6 +1,6 @@
 # 🌱 Steph's Language Garden
 
-> **32 projects** · **8 language families** · **39,124 lines** written by me since 2018 · current favorite: ⚙️ **C / C++**
+> **32 projects** · **8 language families** · **39,197 lines** written by me since 2018 · current favorite: ⚙️ **C / C++**
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/journey-dark.svg">
@@ -13,7 +13,7 @@
 |---|---|---|---|---:|---:|
 | 🎨 | **HTML & CSS** | `trueheart-mockup` | Dec 2018 | 14 | 13,356 |
 | 🟨 | **JavaScript** | `JavaScript2019` | Feb 2019 | 10 | 5,430 |
-| 🐍 | **Python** | `🔒 Private project 2` | Feb 2025 | 10 | 4,158 |
+| 🐍 | **Python** | `🔒 Private project 2` | Feb 2025 | 10 | 4,231 |
 | 🔷 | **TypeScript** | `🔒 Private project 3` | Apr 2025 | 3 | 9,154 |
 | ⚙️ | **C / C++** | `🔒 Private project 3` | Jun 2025 | 7 | 4,646 |
 | 🔌 | **Hardware & ASM** | `Nand2Tetris` | Dec 2025 | 1 | 1,310 |
@@ -44,7 +44,7 @@
 | `🔒 Private project 9` | Jul 2026 | ⚙️ C / C++ | — | 1 | 74 |
 | `lazyfoo` | Jul 2026 | ⚙️ C / C++ | — | 1 | 1,222 |
 | `signupform` | Apr 2026 | 🎨 HTML & CSS | — | 4 | 53 |
-| `neetcode-submissions-dp8kzxsx` | Mar 2026 | 🐍 Python | — | 5 | 315 |
+| `neetcode-submissions-dp8kzxsx` | Mar 2026 | 🐍 Python | — | 10 | 388 |
 | `🔒 Private project 8` | Feb 2026 | 🧩 Other code | — | 4 | 112 |
 | `static_site_generator` | Jan 2026 | 🐍 Python | — | 8 | 364 |
 | `Nand2Tetris` | Dec 2025 | 🔌 Hardware & ASM | 🦀 Rust | 13 | 1,653 |
@@ -69,4 +69,4 @@
 
 </details>
 
-<sub>🪴 Grown by <code>langprog.py</code> on Oct 29, 2026. Counts lines I added in my own commits (merges, data files, lockfiles and vendored code skipped). Notebooks count code cells only.</sub>
+<sub>🪴 Grown by <code>langprog.py</code> on Nov 02, 2026. Counts lines I added in my own commits (merges, data files, lockfiles and vendored code skipped). Notebooks count code cells only.</sub>

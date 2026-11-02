@@ -1,8 +1,8 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="900" height="504" viewBox="0 0 900 504" role="img" aria-labelledby="t d" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif">
 <title id="t">Steph&#x27;s language journey</title><desc id="d">One dot per project per language, placed at the first commit in that language. Dot size shows lines written.</desc>
 <rect width="900" height="504" rx="18" fill="#1a1a19"/>
-<text x="28" y="40" font-size="20" font-weight="600" fill="#f0efec">🌱 Steph's language journey</text>
-<text x="28" y="61" font-size="13" fill="#c3c2b7">Each dot is a project, placed where you first wrote that language. Bigger dot = more lines.</text>
+<text x="28" y="40" font-size="20" font-weight="600" fill="#f0efec">Steph's language journey</text>
+<text x="28" y="61" font-size="13" fill="#c3c2b7">Each dot is a project, placed on first language commit. Bigger dot = more lines of code.</text>
 <line x1="203.6" y1="74" x2="203.6" y2="446" stroke="#2f2f2d" stroke-width="1"/>
 <text x="203.6" y="466" font-size="12" text-anchor="middle" font-weight="600" fill="#c3c2b7">2019</text>
 <line x1="408.2" y1="74" x2="408.2" y2="446" stroke="#2f2f2d" stroke-width="1"/>
@@ -21,8 +21,8 @@
 <circle cx="484.9" cy="101.0" r="9.1" fill="#3987e5" fill-opacity="0.9" stroke="#1a1a19" stroke-width="2"><title>🔒 Private project 3 · Python · 1,530 lines · started Apr 2025</title></circle>
 <circle cx="443.3" cy="101.0" r="7.2" fill="#3987e5" fill-opacity="0.9" stroke="#1a1a19" stroke-width="2"><title>🔒 Private project 2 · Python · 586 lines · started Feb 2025</title></circle>
 <circle cx="571.2" cy="101.0" r="7.0" fill="#3987e5" fill-opacity="0.9" stroke="#1a1a19" stroke-width="2"><title>ai-agent · Python · 532 lines · started Sep 2025</title></circle>
+<circle cx="704.8" cy="101.0" r="6.6" fill="#3987e5" fill-opacity="0.9" stroke="#1a1a19" stroke-width="2"><title>neetcode-submissions-dp8kzxsx · Python · 388 lines · started Mar 2026</title></circle>
 <circle cx="650.5" cy="101.0" r="6.5" fill="#3987e5" fill-opacity="0.9" stroke="#1a1a19" stroke-width="2"><title>static_site_generator · Python · 364 lines · started Jan 2026</title></circle>
-<circle cx="704.8" cy="101.0" r="6.3" fill="#3987e5" fill-opacity="0.9" stroke="#1a1a19" stroke-width="2"><title>neetcode-submissions-dp8kzxsx · Python · 315 lines · started Mar 2026</title></circle>
 <circle cx="813.5" cy="101.0" r="6.2" fill="#3987e5" fill-opacity="0.9" stroke="#1a1a19" stroke-width="2"><title>ML_refresher · Python · 289 lines · started Sep 2026</title></circle>
 <circle cx="564.8" cy="101.0" r="6.2" fill="#3987e5" fill-opacity="0.9" stroke="#1a1a19" stroke-width="2"><title>asteroids-clone · Python · 275 lines · started Aug 2025</title></circle>
 <circle cx="841.6" cy="101.0" r="5.4" fill="#3987e5" fill-opacity="0.9" stroke="#1a1a19" stroke-width="2"><title>webbrowser · Python · 109 lines · started Oct 2026</title></circle>

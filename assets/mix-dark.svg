@@ -47,16 +47,16 @@
 <rect x="768.9" y="226" width="41.1" height="22" rx="4.0" fill="#9085e9"><title>2025 · Hardware &amp; ASM · 1,310 lines (6%)</title></rect>
 <text x="820" y="241.5" font-size="12" fill="#c3c2b7">23.6k lines</text>
 <text x="28" y="281.5" font-size="13" font-weight="600" fill="#f0efec">2026</text>
-<rect x="70.0" y="266" width="87.0" height="22" rx="4.0" fill="#3987e5"><title>2026 · Python · 1,079 lines (12%)</title></rect>
-<text x="113.5" y="281.0" font-size="11" font-weight="600" text-anchor="middle" fill="#ffffff">12%</text>
-<rect x="159.0" y="266" width="3.9" height="22" rx="0.0" fill="#d95926"><title>2026 · JavaScript · 71 lines (1%)</title></rect>
-<rect x="164.9" y="266" width="135.2" height="22" rx="0.0" fill="#199e70"><title>2026 · HTML &amp; CSS · 1,663 lines (19%)</title></rect>
-<text x="232.4" y="281.0" font-size="11" font-weight="600" text-anchor="middle" fill="#0b0b0b">19%</text>
-<rect x="302.0" y="266" width="69.3" height="22" rx="0.0" fill="#c98500"><title>2026 · TypeScript · 865 lines (10%)</title></rect>
-<text x="336.7" y="281.0" font-size="11" font-weight="600" text-anchor="middle" fill="#0b0b0b">10%</text>
-<rect x="373.4" y="266" width="374.7" height="22" rx="0.0" fill="#d55181"><title>2026 · C / C++ · 4,567 lines (51%)</title></rect>
-<text x="560.7" y="281.0" font-size="11" font-weight="600" text-anchor="middle" fill="#0b0b0b">51%</text>
-<rect x="750.0" y="266" width="60.0" height="22" rx="4.0" fill="#e66767"><title>2026 · Other code · 727 lines (8%)</title></rect>
-<text x="780.0" y="281.0" font-size="11" font-weight="600" text-anchor="middle" fill="#ffffff">8%</text>
+<rect x="70.0" y="266" width="92.2" height="22" rx="4.0" fill="#3987e5"><title>2026 · Python · 1,152 lines (13%)</title></rect>
+<text x="116.1" y="281.0" font-size="11" font-weight="600" text-anchor="middle" fill="#ffffff">13%</text>
+<rect x="164.2" y="266" width="3.8" height="22" rx="0.0" fill="#d95926"><title>2026 · JavaScript · 71 lines (1%)</title></rect>
+<rect x="170.1" y="266" width="134.1" height="22" rx="0.0" fill="#199e70"><title>2026 · HTML &amp; CSS · 1,663 lines (18%)</title></rect>
+<text x="237.1" y="281.0" font-size="11" font-weight="600" text-anchor="middle" fill="#0b0b0b">18%</text>
+<rect x="306.1" y="266" width="68.8" height="22" rx="0.0" fill="#c98500"><title>2026 · TypeScript · 865 lines (10%)</title></rect>
+<text x="340.5" y="281.0" font-size="11" font-weight="600" text-anchor="middle" fill="#0b0b0b">10%</text>
+<rect x="376.9" y="266" width="371.6" height="22" rx="0.0" fill="#d55181"><title>2026 · C / C++ · 4,567 lines (50%)</title></rect>
+<text x="562.7" y="281.0" font-size="11" font-weight="600" text-anchor="middle" fill="#0b0b0b">50%</text>
+<rect x="750.5" y="266" width="59.5" height="22" rx="4.0" fill="#e66767"><title>2026 · Other code · 727 lines (8%)</title></rect>
+<text x="780.3" y="281.0" font-size="11" font-weight="600" text-anchor="middle" fill="#ffffff">8%</text>
 <text x="820" y="281.5" font-size="12" fill="#c3c2b7">9k lines</text>
 </svg>
