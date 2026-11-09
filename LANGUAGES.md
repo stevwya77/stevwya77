@@ -69,4 +69,4 @@
 
 </details>
 
-<sub>🪴 Grown by <code>langprog.py</code> on Nov 02, 2026. Counts lines I added in my own commits (merges, data files, lockfiles and vendored code skipped). Notebooks count code cells only.</sub>
+<sub>🪴 Grown by <code>langprog.py</code> on Nov 09, 2026. Counts lines I added in my own commits (merges, data files, lockfiles and vendored code skipped). Notebooks count code cells only.</sub>
