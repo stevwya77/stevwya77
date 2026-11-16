@@ -1,6 +1,6 @@
 # 🌱 Steph's Language Garden
 
-> **32 projects** · **8 language families** · **39,197 lines** written by me since 2018 · current favorite: ⚙️ **C / C++**
+> **34 projects** · **8 language families** · **39,659 lines** written by me since 2018 · current favorite: ⚙️ **C / C++**
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/journey-dark.svg">
@@ -13,10 +13,10 @@
 |---|---|---|---|---:|---:|
 | 🎨 | **HTML & CSS** | `trueheart-mockup` | Dec 2018 | 14 | 13,356 |
 | 🟨 | **JavaScript** | `JavaScript2019` | Feb 2019 | 10 | 5,430 |
-| 🐍 | **Python** | `🔒 Private project 2` | Feb 2025 | 10 | 4,231 |
+| 🐍 | **Python** | `🔒 Private project 2` | Feb 2025 | 11 | 4,640 |
 | 🔷 | **TypeScript** | `🔒 Private project 3` | Apr 2025 | 3 | 9,154 |
 | ⚙️ | **C / C++** | `🔒 Private project 3` | Jun 2025 | 7 | 4,646 |
-| 🔌 | **Hardware & ASM** | `Nand2Tetris` | Dec 2025 | 1 | 1,310 |
+| 🔌 | **Hardware & ASM** | `Nand2Tetris` | Dec 2025 | 2 | 1,363 |
 | 🦀 | **Rust** | `Nand2Tetris` | Dec 2025 | 1 | 343 |
 | 🧩 | **Other code** | `🔒 Private project 8` | Feb 2026 | 3 | 727 |
 
@@ -34,6 +34,8 @@
 
 | Project | Started | Main language | Also used | My commits | Lines |
 |---|---|---|---|---:|---:|
+| `oiio-4613-repro` | Nov 2026 | 🐍 Python | — | 6 | 409 |
+| `FPGA` | Nov 2026 | 🔌 Hardware & ASM | — | 6 | 53 |
 | `webbrowser` | Oct 2026 | 🐍 Python | — | 2 | 109 |
 | `stevwya77.github.io` | Sep 2026 | 🎨 HTML & CSS | 🔷 TypeScript, 🟨 JavaScript | 15 | 985 |
 | `ML_refresher` | Sep 2026 | 🐍 Python | — | 5 | 289 |
@@ -69,4 +71,4 @@
 
 </details>
 
-<sub>🪴 Grown by <code>langprog.py</code> on Nov 09, 2026. Counts lines I added in my own commits (merges, data files, lockfiles and vendored code skipped). Notebooks count code cells only.</sub>
+<sub>🪴 Grown by <code>langprog.py</code> on Nov 16, 2026. Counts lines I added in my own commits (merges, data files, lockfiles and vendored code skipped). Notebooks count code cells only.</sub>

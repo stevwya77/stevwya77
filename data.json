@@ -263,6 +263,23 @@
     }
   },
   {
+    "project": "FPGA",
+    "first": "2026-11-12",
+    "last": "2026-11-16",
+    "commits": 6,
+    "lines": {
+      "Hardware & ASM": 53
+    },
+    "by_year": {
+      "2026": {
+        "Hardware & ASM": 53
+      }
+    },
+    "started": {
+      "Hardware & ASM": "2026-11-12"
+    }
+  },
+  {
     "project": "\ud83d\udd12 Private project 4",
     "first": "2025-10-08",
     "last": "2025-10-08",
@@ -418,6 +435,23 @@
     },
     "started": {
       "HTML & CSS": "2025-10-20"
+    }
+  },
+  {
+    "project": "oiio-4613-repro",
+    "first": "2026-11-13",
+    "last": "2026-11-14",
+    "commits": 6,
+    "lines": {
+      "Python": 409
+    },
+    "by_year": {
+      "2026": {
+        "Python": 409
+      }
+    },
+    "started": {
+      "Python": "2026-11-13"
     }
   },
   {
