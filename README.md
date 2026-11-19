@@ -1,12 +1,10 @@
-# Hi 👋, I'm Stephanie
+# Hi, I'm Stephanie
 
-### Breadboard tinkerer on the weekends, writing code that actually works the rest of the week
+Breadboard tinkerer on weekends, writing code that actually works the rest of the week.
 
-- 🔭 I'm currently working on **Fortsite**
+I like building things that show what's happening underneath. Lately that's been a debugger that makes memory visible, a computer built from NAND gates, and a C++ game engine with a CRT filter.
 
-- 🌱 I'm currently learning **ASM & Verilog**
-
-- 👯 I'm looking to collaborate on **any open source project**
+Right now I'm learning assembly and Verilog, and I'm always up for collaborating on open source, especially tracking down tricky issues and adding tests.
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
